@@ -4,6 +4,7 @@ public class Produto {
     private int cod;
     private String nome, tipo;
     private double valor, valorDesconto;
+    Loja loja;
 
     public int getCod() {
         return cod;
