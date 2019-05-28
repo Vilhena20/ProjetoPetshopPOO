@@ -3,7 +3,6 @@ package br.unama.projetopetshop;
 public class Loja {
     private String nome, end, tel, cnpj;
     private int codUnidade;
-    array
 
     public String getNome() {
         return nome;

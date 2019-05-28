@@ -1,9 +1,10 @@
 package br.unama.projetopetshop;
 
 public class Servico {
-    int cod;
-    String nome, tipo;
-    double valor, valorDesconto;
+    private int cod;
+    private String nome, tipo;
+    private double valor, valorDesconto;
+    Loja loja;
 
     public int getCod() {
         return cod;
